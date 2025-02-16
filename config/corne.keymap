@@ -118,7 +118,7 @@
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
         };
     };
 
@@ -148,10 +148,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1        &kp N2        &kp N3        &kp N4                &kp N5       &kp N6    &kp N7          &kp N8     &kp N9     &kp N0  &none
-&kp TAB     &none         &none         &none         &none                 &none        &kp LEFT  &kp DOWN        &kp UP     &kp RIGHT  &none   &none
-&kp LSHFT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR            &none        &none     &none           &none      &none      &none   &none
-                                        &kp LEFT_ALT  &win_change_language  &kp SPACE    &none     &backspace_del  &kp LCTRL
+&kp ESCAPE  &kp N1        &kp N2        &kp N3        &kp N4                &kp N5            &kp N6    &kp N7          &kp N8     &kp N9     &kp N0  &none
+&kp TAB     &none         &none         &none         &none                 &none             &kp LEFT  &kp DOWN        &kp UP     &kp RIGHT  &none   &none
+&kp LSHFT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR            &kp KP_NUMLOCK    &none     &none           &none      &none      &none   &none
+                                        &kp LEFT_ALT  &win_change_language  &kp SPACE         &none     &backspace_del  &kp LCTRL
             >;
         };
 
