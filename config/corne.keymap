@@ -126,7 +126,7 @@
         unicode_dot: unicode_symbols {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(KP_N0) &kp LA(KP_N0) &kp LA(KP_N4) &kp LA(KP_N6)>;
+            bindings = <&kt LEFT_ALT &kp KP_N0 &kp KP_N0 &kp KP_N4 &kp KP_N6 &kt LEFT_ALT>;
             label = "UNICODE_SYMBOLS";
         };
     };
