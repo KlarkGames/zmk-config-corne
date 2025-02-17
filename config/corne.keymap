@@ -15,64 +15,64 @@
 
         left_par {
             timeout-ms = <50>;
-            key-positions = <4 5>;
+            key-positions = <4 3>;
             bindings = <&kp LEFT_PARENTHESIS>;
         };
 
         left_bracket {
             bindings = <&unicode_left_bracket>;
-            key-positions = <16 17>;
+            key-positions = <16 15>;
         };
 
         left_brace {
             bindings = <&unicode_left_brace>;
-            key-positions = <28 29>;
+            key-positions = <28 27>;
         };
 
         right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <6 7>;
+            key-positions = <7 8>;
             timeout-ms = <50>;
         };
 
         right_bracket {
             bindings = <&unicode_right_bracket>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
 
         right_brace {
             bindings = <&unicode_right_brace>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
         };
 
         dot {
             bindings = <&unicode_dot>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
         };
 
         comma {
             bindings = <&unicode_comma>;
-            key-positions = <16 15>;
+            key-positions = <15 14>;
         };
 
         colon {
             bindings = <&unicode_colon>;
-            key-positions = <7 8>;
+            key-positions = <8 9>;
         };
 
         semicolon {
             bindings = <&unicode_semicolon>;
-            key-positions = <4 3>;
+            key-positions = <3 2>;
         };
 
         question_mark {
             bindings = <&unicode_question_mark>;
-            key-positions = <31 32>;
+            key-positions = <32 33>;
         };
 
         exclamation_mark {
             bindings = <&unicode_exclamation_mark>;
-            key-positions = <27 28>;
+            key-positions = <27 26>;
         };
     };
 
